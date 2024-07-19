@@ -12,4 +12,4 @@ Além das funcionalidades necessária para que ele rodasse corretamente em qualq
 
 ![Funcionamento](https://raw.githubusercontent.com/Marcos-AA-Ferreira/Codificador-Decodificador-Alura-Oracle-/main/src/assets/2024-07-19%2015-56-11%20(online-video-cutter.com).gif)
 
-Clique [aqui](https://vercel.com/marcos-aa-ferreiras-projects/codificador-decodificador-alura-oracle/CxJzN1JnyS7bZUehi3g7JTjn5ki4) para acessa o projeto na web.
+Clique [aqui](https://codificador-decodificador-alura-oracle.vercel.app/) para acessa o projeto na web.
