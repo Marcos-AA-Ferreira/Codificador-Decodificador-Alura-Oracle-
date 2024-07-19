@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/resposive.css">
+    <title>Codificador e Decodificador</title>
+</head>
+<body>
+    <header class="logo">
+        <div class="titulo">
+            <img class="logo_img" src="./src/assets/imagelogo.png" alt="alura_logo">
+            <h1>Cifra Alura</h1>
+        </div>
+        <button id="modoNoturno" class="botao_Noturno"><img class="modo_Noturno" src="./src/assets/moon.png" alt=""></button>
+    </header>
+
+    <div class="pagina">
+        <main class="PaginaInicial">
+            <section class="Area_de_Input">
+                <textarea class="mensagemacriptografar" type="text" placeholder="Digite sua mensagem aqui"></textarea>
+                <div class="Area_Interacao">
+                    <img class="aviso" src="./src/assets/image.png" alt="Apenas letras minúsculas e sem acento.">
+                    <div class="botoes">
+                        <button onclick="criptografar()" class="botao_criptografar botao">Criptografar</button>
+                        <button onclick="descriptografar()" class="botao_descriptografar botao">Descriptografar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="Area_de_Output">
+                <img class="imagem" id="imagem" src="./src/assets/image01.png" alt="Buscando">
+                <div class="mensagem_output">
+                    <h2 id="titulo">Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+                </div>
+            </section>
+        </main>
+        <footer class="rodape">
+            <p>
+                Site criado por <a href="https://www.linkedin.com/in/marcos-antonio-dev/" target="_blank">Marcos Antonio</a>
+            </p>
+        </footer>
+    </div>
+    <script src="./src/js/DescripCript.js" defer></script>
+</body>
+</html>

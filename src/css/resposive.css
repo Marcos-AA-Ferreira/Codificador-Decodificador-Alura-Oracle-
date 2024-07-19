@@ -1,0 +1,50 @@
+@media (max-width: 900px) {
+    .logo {
+        padding: 0.5% 0.5% 0% 0%;;
+    }
+
+    .logo_img {
+        height: 2.5rem;
+        width: auto;
+    }
+
+    .PaginaInicial {
+        flex-direction: column;
+        padding: 1rem;
+        padding-top: 15%;
+    }
+
+    .botoes {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .Area_de_Input {
+        padding: 0;
+        height: 80%;
+    }
+
+    .Area_de_Output {
+        padding: 0;
+        height: 40%;
+        width: 100%;
+    }
+
+    .imagem {
+        width: 0;
+        height: auto;
+    }
+
+    .mensagem_output {
+        max-width: 100%;
+    }
+
+    p {
+        padding: 2%;
+    }
+
+    .copiar {
+        width: 100%;
+        padding: 5%;
+    }
+}

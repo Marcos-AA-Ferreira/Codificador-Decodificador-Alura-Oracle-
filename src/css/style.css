@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --cor_primaria: #9DB2BF;
+    --cor_secundaria: #748fa2;
+    --cor_terciaria: #27374D;
+    --cor_quaternaria: #DDE6ED;
+
+    --fonte_principal: "Inter", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--cor_primaria);
+    
+    display: flex;
+    flex-direction: column;
+}
+
+body.dark-mode {
+    --cor_primaria: #2E2E2E;
+    --cor_secundaria: #1C1C1C;
+    --cor_terciaria: #E0E0E0;
+    --cor_quaternaria: #444444;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 0.5% 0% 2%;
+}
+
+.titulo {
+    display: flex;
+    color: var(--cor_terciaria);
+    font-family: var(--fonte_principal);
+    font-weight: 400;
+    font-size: 1rem;
+    gap: 1rem;
+}
+
+.logo_img {
+    height: 3rem;
+    width: auto;
+}
+
+.modo_Noturno{
+    height: 1.5rem;
+    width: auto;
+}
+
+.botao_Noturno {
+    border-radius: 32px;
+    height: 2rem;
+    width: 4rem;
+    background-color: var(--cor_quaternaria);
+}
+
+.pagina{
+    display: flex;
+    flex-direction: column;
+    height: 98%;
+    gap: 1%;
+}
+
+.PaginaInicial {
+    display: flex;
+    gap: 5%;
+    height: 95%;
+    padding: 0.5rem 2rem 0rem 8rem;
+}
+
+.mensagemacriptografar {
+    font-family: var(--fonte_principal);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--cor_terciaria);
+    background-color: var(--cor_primaria);
+    border: none;
+    resize: none;
+    overflow-y: auto;
+    height: 100%;
+    padding: 1rem;
+}
+
+.Area_de_Input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mensagemacriptografar::placeholder {
+    color: var(--cor_terciaria);
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.aviso {
+    height: 1.5rem;
+    width: auto;
+}
+
+.botoes {
+    display: flex;
+    justify-content:first baseline;
+    gap: 1.5rem;
+    padding: 0 0 1rem 0;
+}
+
+.botao {
+    font-family: var(--fonte_principal);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 20rem;
+}
+
+.botao_criptografar {
+    background-color: var(--cor_terciaria);
+    color: var(--cor_secundaria);
+}
+
+.botao_descriptografar{
+    background-color: var(--cor_quaternaria);
+    border-color: var(--cor_terciaria);
+    border-width: 0.01rem;
+    color: var(--cor_terciaria);
+    padding: 1.5rem 1.25rem;
+}
+
+.Area_de_Output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor_secundaria);
+    color: var(--cor_terciaria);
+    border-radius: 16px;
+    width: 40rem;
+    padding: 1rem;
+}
+
+.imagem {
+    width: 90%;
+    height: auto;
+}
+
+.mensagem_output {
+    text-align: center;
+    resize: none;
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+
+h2 {
+    font-family: var(--fonte_principal);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: var(--fonte_principal);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.copiar {
+    background-color: var(--cor_quaternaria);
+    border-color: var(--cor_terciaria);
+    border-width: 0.01rem;
+    color: var(--cor_terciaria);
+}
+
+footer {
+    padding-top: 0.5%;
+    text-align: center;
+    color: var(--cor_terciaria);
+    font-family: var(--fonte_principal);
+    font-weight: 400;
+    font-size: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor_terciaria);
+    font-weight: 600;
+}
