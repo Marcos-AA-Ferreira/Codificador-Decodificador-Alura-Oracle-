@@ -63,6 +63,11 @@ body.dark-mode {
     background-color: var(--cor_quaternaria);
 }
 
+.botao_Noturno:hover {
+    background-color: var(--cor_terciaria);
+    cursor: pointer;
+}
+
 .pagina{
     display: flex;
     flex-direction: column;
@@ -130,12 +135,23 @@ body.dark-mode {
     color: var(--cor_secundaria);
 }
 
+.botao_criptografar:hover {
+    background-color: var(--cor_secundaria);
+    color: var(--cor_terciaria);
+    cursor: pointer;
+}
+
 .botao_descriptografar{
     background-color: var(--cor_quaternaria);
     border-color: var(--cor_terciaria);
     border-width: 0.01rem;
     color: var(--cor_terciaria);
     padding: 1.5rem 1.25rem;
+}
+
+.botao_descriptografar:hover {
+    background-color: var(--cor_secundaria);
+    cursor: pointer;
 }
 
 .Area_de_Output {
@@ -179,6 +195,12 @@ p {
     border-color: var(--cor_terciaria);
     border-width: 0.01rem;
     color: var(--cor_terciaria);
+}
+
+.copiar:hover {
+    background-color: var(--cor_terciaria);
+    color: var(--cor_secundaria);
+    cursor: pointer;
 }
 
 footer {
